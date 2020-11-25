@@ -366,9 +366,9 @@
 
 
                 <form class="flex-auto p-5 lg:p-10 bg-green-500 text-white" method="POST" data-netlify-recaptcha="true" data-netlify="true">
-                 <h4 class="text-2xl font-semibold">Lūdzu, aizpildiet anketu...</h4>
+                 <h4 class="text-2xl font-semibold">Kas ir jaizdara jūsu dārzā?</h4>
                  <p class="leading-relaxed mt-1 mb-4">
-                   Būtu forši - ja Jūs varētu pievienot bildi un ar nelielu aprakstu, kas ir jaizdara jūsu dārzā!!!
+                   Lūdzu pievienojiet bildi un ar nelielu aprakstu, paldies. 
                  </p>
                  
                  
@@ -376,11 +376,11 @@
                    
                   <label 
                      class="block uppercase text-xs font-bold mb-2"
-                     for="full-name"> Vārds, Uzvārds
+                     for="full-name"> Jūsu Vārds
                     </label>
                      
                      <input
-                     type="text" name="name" id="name" placeholder="Vārds, Uzvārds"
+                     type="text" name="name" id="name" placeholder="Vārds"
                      class="px-3 py-3 placeholder-gray-400 bg-white text-black rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                      
                      style="transition: all 0.15s ease 0s"/>
@@ -411,11 +411,10 @@
                      class="px-3 py-3 placeholder-gray-400 bg-white text-black rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                      
                    ></textarea>
-                 </div>
-
-                 <div>
-                  <input type="file" name="myfile" placeholder="Upload File" />
-              </div><br>
+                </div>
+                
+                
+                <div> <input type="file" name="myfile" placeholder="Upload File"/></div>
 
                  <div data-netlify-recaptcha="true"></div>
               
@@ -426,6 +425,7 @@
                   type="submit" value="Send">
                     Send Message
                   </button>
+                 </div>
                 </form>
 
 
